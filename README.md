@@ -1,3 +1,14 @@
+# Retorno de boolean
+#### Javascript
+```javascript
+  const regexString = "^([0-9... $"
+  const string = "abc123"
+  regexString.test(string) --> Boolean
+```
+#### Java
+```java
+  string.matches(regexString) --> Boolean
+```
 # Regex úteis
 
 ### Dinheiro
