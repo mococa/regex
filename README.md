@@ -3,11 +3,13 @@
 ```javascript
   const regexString = "^([0-9... $"
   const string = "abc123"
-  regexString.test(string) --> Boolean
+  var bool = regexString.test(string)
 ```
 #### Java
 ```java
-  string.matches(regexString) --> Boolean
+  String regexString = "^([0-9... $";
+  String string = "abc123";
+  boolean allGood = string.matches(regexString);
 ```
 # Regex úteis
 
