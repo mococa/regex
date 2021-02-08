@@ -1,6 +1,6 @@
 # Regular Expressions (RegEx)
 ### Para que utilizar
-Você pode usar o regex para verificar se um texto segue certo padrão, retornando `true` ou `false` !
+Você pode usar o regex para verificar se um texto segue certo padrão, retornando `true` ou `false` para confirmar se um texto (`string`) está conforme deve estar
 
 # Retorno de boolean
 #### Javascript
@@ -24,7 +24,7 @@ Você pode usar o regex para verificar se um texto segue certo padrão, retornan
 
 ### Telefone
 ```javascript
-^(\(?\d{2}\)?(\9)?\d{4}(\-)?\d{4})$
+^((\(\d{2}\)|\d{2})(\9\d{4}\-?\d{4}|[1-8]\d{3}\-?\d{4}))$
 ```
 
 ### CEP
@@ -49,7 +49,7 @@ Você pode usar o regex para verificar se um texto segue certo padrão, retornan
 
 ### Email
 ```javascript
-^[^\@\s\"\:\;]*\@\w*\.\w*(\.\w*)?$
+^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$
 ```
 
 ### URL Link
