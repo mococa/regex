@@ -1,6 +1,6 @@
 #Regular Expressions (RegEx)
 ### Para que utilizar
-Você pode usar o regex para verificar se um texto segue certo padrão, retornando [true] ou [false] !
+Você pode usar o regex para verificar se um texto segue certo padrão, retornando `true` ou `false` !
 
 # Retorno de boolean
 #### Javascript
