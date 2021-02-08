@@ -19,7 +19,7 @@ Você pode usar o regex para verificar se um texto segue certo padrão, retornan
 
 ### Dinheiro
 ```javascript
-^((R\$)?\s?\d.((,|.)\d.*)?)$
+^(R\$\s?\d)(\,\d{2}|\.\d{2})?$
 ```
 
 ### Telefone
