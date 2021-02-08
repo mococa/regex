@@ -22,7 +22,7 @@ Você pode usar o regex para verificar se um texto segue certo padrão, retornan
 /^(R\$\s?\d)(\,\d{2}|\.\d{2})?$/
 ```
 
-### Telefone / Celular
+### Telefone
 ```javascript
 /^((\(\d{2}\)|\d{2})(\9\d{4}\-?\d{4}|[1-8]\d{3}\-?\d{4}))$/
 ```
